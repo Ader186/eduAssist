@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Aquí se añadirán las rutas más adelante
 app.get('/', (req, res) => {
-  res.send('Backend is running!');
+  res.send('Hello Backend!');
 });
 
 export default app;
